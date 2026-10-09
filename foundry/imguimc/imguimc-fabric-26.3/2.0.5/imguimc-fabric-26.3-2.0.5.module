@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "foundry.imguimc",
+    "module": "imguimc-fabric-26.3",
+    "version": "2.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.spair",
+          "module": "imgui-java-binding",
+          "version": {
+            "requires": "1.92.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imguimc-fabric-26.3-2.0.5.jar",
+          "url": "imguimc-fabric-26.3-2.0.5.jar",
+          "size": 10797032,
+          "sha512": "939600f0ff979b4ab5595a2901ac25bbcc8f1e32361618903adc0b6466c2037981f494510a749f87cfc1ca585765b755009bcece31679a4f83fa7f624a0698e9",
+          "sha256": "d027368ea20fba8ed6de78f6a108740abdcf64c6301c9a418fa97624ef42578c",
+          "sha1": "afa3edd6e572443c8a54ab64c182aa4b8c0b3ea3",
+          "md5": "a1aec420c0a59776525618e20d8f01ba"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc-fabric-26.3",
+          "version": "2.0.5"
+        },
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc-fabric",
+          "version": "2.0.5"
+        },
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc",
+          "version": "2.0.5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+ece06323a8"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-resource-loader-v1",
+          "version": {
+            "requires": "3.0.1+f580942da8"
+          }
+        },
+        {
+          "group": "io.github.spair",
+          "module": "imgui-java-binding",
+          "version": {
+            "requires": "1.92.7.1"
+          }
+        },
+        {
+          "group": "io.github.spair",
+          "module": "imgui-java-natives-linux",
+          "version": {
+            "requires": "1.92.7.1"
+          }
+        },
+        {
+          "group": "io.github.spair",
+          "module": "imgui-java-natives-macos",
+          "version": {
+            "requires": "1.92.7.1"
+          }
+        },
+        {
+          "group": "io.github.spair",
+          "module": "imgui-java-natives-windows",
+          "version": {
+            "requires": "1.92.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imguimc-fabric-26.3-2.0.5.jar",
+          "url": "imguimc-fabric-26.3-2.0.5.jar",
+          "size": 10797032,
+          "sha512": "939600f0ff979b4ab5595a2901ac25bbcc8f1e32361618903adc0b6466c2037981f494510a749f87cfc1ca585765b755009bcece31679a4f83fa7f624a0698e9",
+          "sha256": "d027368ea20fba8ed6de78f6a108740abdcf64c6301c9a418fa97624ef42578c",
+          "sha1": "afa3edd6e572443c8a54ab64c182aa4b8c0b3ea3",
+          "md5": "a1aec420c0a59776525618e20d8f01ba"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc-fabric-26.3",
+          "version": "2.0.5"
+        },
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc-fabric",
+          "version": "2.0.5"
+        },
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc",
+          "version": "2.0.5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "imguimc-fabric-26.3-2.0.5-sources.jar",
+          "url": "imguimc-fabric-26.3-2.0.5-sources.jar",
+          "size": 621063,
+          "sha512": "2ba1269b01726edc705885f5a7e4314f4c7859824c87428dcae2d5c9015f993ecc8d66aa96a192a9a1c6c61b571263972bb085107d2abaf23061747044f0db4c",
+          "sha256": "3560e246f129ad882f03906671920b35099b01740f6a8b68cb3fe5bc385c67bb",
+          "sha1": "48658ab21141b3f0247c69e1b662c310ce7724b9",
+          "md5": "e41e3ecd0ce9287caf4e15f25b78b839"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc-fabric-26.3",
+          "version": "2.0.5"
+        },
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc-fabric",
+          "version": "2.0.5"
+        },
+        {
+          "group": "foundry.imguimc",
+          "name": "imguimc",
+          "version": "2.0.5"
+        }
+      ]
+    }
+  ]
+}
